@@ -1,0 +1,90 @@
+*{
+    color: black;
+}
+body{
+    background-color:rgb(248, 196, 177);
+}
+
+
+.logo{
+    font-family: 'Mochiy Pop P One'; 
+    color: palevioletred;
+    font-weight: bolder;
+    font-size: 200%;
+    text-decoration-line:unset;
+    
+}
+
+.logo2{
+    font-family: 'Mochiy Pop P One';
+    color: black;
+    font-weight: bold;
+    font-size: 200%;
+    
+}
+
+.custom{
+    font-family: 'Mochiy Pop P One';
+    font-size:15px;
+    background-color:rgb(255, 198, 217);
+}
+
+.custom:hover{
+    background-color: white;
+}
+
+p{
+    font-family: 'Montserrat';
+    font-weight: bold;
+    font-size:150%;
+    
+    
+}
+
+.nav-link{
+    font-family: 'Montserrat';
+    color: white;
+    font-size:100%;
+    font-weight:bolder;
+}
+
+.bi{
+    font-size: 50px;
+}
+
+.introduction{
+    font-family:'Mochiy Pop P One';
+    font-weight: bold;
+    font-size:700%
+}
+
+.introduction2{
+    font-family:'Mochiy Pop P One';
+    font-weight: bold;
+    font-size:700%;
+}
+
+.name{
+    font-family:'Mochiy Pop P One';
+    font-weight: bold;
+    color: palevioletred; 
+}
+
+.description{
+    font-family: 'Montserrat';
+    font-size: 200%;
+    font-weight: bold;
+}
+
+.engaging2{
+    font-family: 'Montserrat';
+    font-size: 150%;
+    font-weight: bold;
+    text-decoration-line:underline;
+    color:rgb(177, 21, 104);
+}
+
+.profile{
+    height:100%
+}
+

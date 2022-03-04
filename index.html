@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Webpage</title>
+
+    <!-- Bootstrap is for framework and is also a collection or library -->
+    <!-- Bootstrap CDN (Content Delivery Network)-->
+    <!-- We use Bootstrap if we want it to incorporate this in online -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+        <!-- HREF (Hyperlink Reference) -->
+        <link href="css/fonts.css" rel="stylesheet">
+        <link href="css/style.css" rel="stylesheet">
+
+        <!-- Bootstrap Icons -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+    <!-- 3 Types of CSS -->
+    <!-- Internal CSS (Sa loob ng head para mag declare ng "style") -->
+    <!-- External CSS (Recommended)-->
+    <!-- Inline CSS (<body style ="background-color: rgb(248, 196, 177);">) -->
+
+    </head>
+
+    <body>
+
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container container-fluid">
+              <a class="navbar-brand" href="#">
+
+                <h1> <span class="logo">CAY</span><span class="logo2">WAII</span></h1>
+
+              </a>
+
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarText">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Experiences</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">About</a>
+                  </li>
+                </ul>
+                <span class="navbar-text">
+                    <a href="https://www.facebook.com/carylrociel.santiago/"><i class="bi bi-facebook"></i></a>
+                    <a href="https://www.instagram.com/hello_cayy/"><i class="bi bi-instagram"></i></a>
+                    <a href="https://github.com/caywaii"><i class="bi bi-github"></i></a>
+                </span>
+              </div>
+            </div>
+          </nav>
+          <!-- ID vs CLASS (ID IS UNIQUE while WE CAN USE CLASS WHENEVER WE WANT) -->
+
+          <div class="container">
+
+            <div class="row">
+<!-- col (column). In a column we have 12 columns. so the purpose of having two.col-6 is to make it half -->
+                <div class="col-md-6 mt-5">
+                    <h1 class = "introduction"> Hey, </h1>
+                    <h1 class = "introduction2"> I am <span class="name">CAY</span></h1>
+                    <h3 class = "description">cutie <span class = "engaging2">Web Developer</span> at your service.</span></h3>
+                    
+                </div>
+                <div class="col-md-6 text-center">
+
+                    <img src="img/profile.png" class="profile"/>
+                </div>
+            </div>
+
+          </div>
+
+        <!-- headings -->
+       
+        <!-- <span class="variable name>*TEXT*</span>" -->
+        
+        <div class="container">
+            
+    <!-- we can put multiple class name -->
+            <button class="btn custom  mt-3"> EMAIL ME </button>
+            
+        </div>
+        
+    <!-- p tag - paragraph -->
+    <div class="container mt-5"><p>Hello Guys! This is my first webpage. I want to thank Jeyym Santos for teaching me how to use css and html. I am so happy to learn how to create webpage with my friends (Charlize, Jeyym, and Brenley).</p></div>
+        
+    <!-- Bootstrap JS -->
+    <!-- Developers use it to make it last to load (Para mabilis yung loading) -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    </body>
+
+</html>
